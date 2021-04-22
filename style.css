@@ -1,0 +1,184 @@
+*{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ /* intro première partie*/
+
+#intro{
+    text-align: center;
+}
+#intro p{
+    margin-bottom: 1rem;
+}
+#intro img{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+h1{
+    line-height: 3rem;
+    font-size: 2rem;
+
+    margin-bottom: 1rem;
+}
+
+h2{
+    margin-bottom: 1.5rem;
+}
+/* différentes sections*/
+
+section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 95vw;
+}
+
+.section1{
+    margin-top: 3rem;
+
+    background-color: var(--Vert-clair);
+
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.section1 h2{
+    margin-top: 3rem;
+}
+.section1 svg{
+    width: 2rem;
+    height: auto;
+}
+
+.section2, .section4{
+    padding: 3rem 0 2rem 0;
+
+    display: flex;
+    flex-direction: column;
+}
+.section2 img, .section3 img, .section4 img {
+    width: 100%;
+}
+.section2 p, .section3 p, .section4 p{
+    margin-bottom: 2rem;
+}
+.section3{
+    background-color: var(--Vert-clair);
+
+    padding: 3rem 0 2rem 0;
+}
+
+/*réglages bouton*/
+
+button {
+
+    background-color: #0AA8A7;
+    color: white;
+    border: none;
+    text-align: center;
+    border-radius: 30px;
+    height: 60px; 
+    width: 150px
+}
+
+/*différentes boites*/
+
+.box{
+    border-radius: 0.6rem;
+    background-color: white;
+    width: 90vw;
+    margin-bottom: 1.5rem;
+    padding:1rem 2rem 1.5rem 2rem ;
+}
+.box h3 {
+    margin-bottom: 1rem;
+}
+
+/* haut de page */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 5rem;
+}
+.logo img{
+    height: 1.5rem;
+}
+
+svg{
+    fill: var(--Vert);
+}
+
+.ic{
+    display: flex;
+    justify-content: center;
+}
+
+.ic-CTA{
+    background-color: var(--Vert-clair);
+    box-shadow: 0px 8px 20px rgb(219, 219, 219);
+
+    border-radius: 0.5rem;
+
+    width: 90vw;
+
+    padding: 2rem;
+
+    text-align: center;
+}
+
+.ic-CTA img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.ic-CTA p{
+    margin-bottom: 1rem;
+}
+.ic-CTA button{
+    padding: 0.8rem 2.5rem 0.8rem 2.5rem;
+}
+
+    /*bas de page*/
+    
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: var(--Vert-clair);
+    margin-top: 3rem;
+
+    padding: 1rem;
+}
+footer a{
+    color: black;
+}
+.grille-footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+	gap: 5px 5px;
+}
+footer img{
+    width: 1.5rem;
+    height: auto;
+    margin-right: 0.5rem;
+}
+
+.icon-contact{
+    margin-top: 1rem;
+}
+
+.logo-footer{
+    margin-top: 1.8rem;
+}
+
+.footer-text{
+    text-align: center;
+}
+
